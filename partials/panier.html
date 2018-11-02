@@ -1,0 +1,24 @@
+<a href="#!extraterrestre">extraterrestre</a>
+<a href="#!terrestre">terrestre</a>
+<a href="#!souterrain">souterrain</a>
+<a href="#!panier">Panier</a>
+<a href="#!/presentation/">retour</a>
+
+<div ng-show="cart.length == 0">
+  <h1>VOTRE PANIER EST VIDE</h1>
+</div>
+
+<div ng-show="cart.length !== 0" ng-controller="StoreController">
+  <h1>PANIER</h1>
+  <ul class="list-group">
+    <li class="list-group-item" ng-repeat="c in cart">
+      <h4>{{c.name}} |                <span style="color:blue"> {{c.count}} </span>
+| {{c.price*c.count | currency : '€'}}</h4>
+      <input class="btn btn-danger" type="button" ng-click="removeItemCart(c)" value="Supprimer" />
+      <input class="btn btn-success" type="button" ng-click="addQuantity(c)" value="Ajouter" />
+    </li>
+  </ul>
+
+  Total : {{total | currency : '€'}}
+  <input class="btn btn-success" type="button" ng-click="buy('En cours de transaction')" value="Acheter" />
+</div>

@@ -1,0 +1,38 @@
+/* Aurelie Catégories
+cards Colors */
+.bg-extraterrestres{
+  background-color: #1c2a48;
+}
+
+.bg-terrestres{
+  background-color: #607d8b;
+}
+
+.bg-souterraines{
+  background-color: #26a69a ;
+}
+
+#cards{
+  margin-top: 100px;
+}
+
+.card-title{
+  font-size: 40px;
+}
+
+.card-body,.card-footer{
+  text-align: center;
+}
+
+/* #img1{
+  width: 70%;
+  height: 50%;
+} */
+
+#text-shadow1{
+  text-shadow: black 2px 3px;
+}
+
+#text-shadow2{
+  text-shadow: white 2px 3px;
+}

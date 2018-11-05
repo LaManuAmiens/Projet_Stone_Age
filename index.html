@@ -1,113 +1,102 @@
 <!DOCTYPE html>
 <html lang="fr" dir="ltr" ng-app="store">
-  <head>
-    <meta charset="utf-8">
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.5/angular.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.5/angular-route.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-i18n/1.7.5/angular-locale_fr-fr.js"></script>
-    <!-- Aymeric partie -->
-    <title> Stone-Age </title>
-  </head>
-  <body>
-    <div class="wrapper">
+<head>
+  <meta charset="utf-8">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.5/angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.5/angular-route.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-i18n/1.7.5/angular-locale_fr-fr.js"></script>
+  <!-- Aymeric partie -->
+  <title> Stone-Age </title>
+</head>
+<body>
+  <div class="wrapper">
     <!-- Sidebar Holder -->
     <nav id="sidebar">
-        <div class="sidebar-header">
-            <h3>MENU</h3>
-        </div>
-            <li>
-                <a class="espacement" href="#!presentations">ACCUEIL</a>
-            </li>
-                <a class="espacement" href="#!categorie1">PIERRES METEORITIQUES</a>
-            <li>
-                <a class="espacement" href="#!categorie2">PIERRES METALLIQUES</a>
-                <!-- <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Pages</a>
-                <ul class="collapse list-unstyled" id="pageSubmenu">
-                    <li>
-                        <a href="#">Page 1</a>
-                    </li>
-                    <li>
-                        <a href="#">Page 2</a>
-                    </li>
-                    <li>
-                        <a href="#">Page 3</a>
-                    </li>
-                </ul> -->
-            </li>
-            <li>
-                <a class="espacement" href="#!categorie3">MINERAUX NATURELS </a>
-            </li>
-            <li>
-                <a class="espacement" href="#">CONTACT</a>
-            </li>
-            <li>
-                <a class="espacement" href="#"><img src="assets/img/panier1.png"></a>
-            </li>
-                </nav>
+      <div class="sidebar-header">
+        <h3>Bienvenue</h3>
+      </div>
+      <li>
+        <a class="espacement" href="#!presentations">Accueil</a>
+      </li>
+      <li>
+        <a class="espacement" href="#!meteoritiques">Pierres Météoritiques</a>
+      </li>
+      <li>
+        <a class="espacement" href="#!metalliques">Pierres Métalliques</a>
+      </li>
+      <li>
+        <a class="espacement" href="#!minerauxNaturels">Mineraux Naturels </a>
+      </li>
+      <li>
+        <a class="espacement" href="#">Contact</a>
+      </li>
+      <li>
+        <a class="espacement" href="#!panier"><img src="assets/img/panier1.png"></a>
+      </li>
+    </nav>
     <!-- Page Content Holder -->
     <div id="content">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-                <button type="button" id="sidebarCollapse" class="navbar-btn">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
-                <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="fas fa-align-justify"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="nav navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#!presentations">ACCUEIL</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#!categorie1">PIERRES METEORITIQUES</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#categorie2">PIERRES METALLIQUES</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#!categorie3">MINERAUX NATURELS</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">CONTACT</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#"><img src="assets/img/panier1.png"></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-      <div ng-view></div> 
-        <!-- Footer -->
-        <div class="footer">
-          <div class="col-md-12">
-            <div class="row">
-              <!--Facebook-->
-              <a class="nav-link1" href="#"><img src="assets/img/facebook.png"></a>
-              <!--Google +-->
-              <a class="nav-link1" href="#"><img src="assets/img/twitter.png"></a>
-              <!--Linkedin-->
-              <a class="nav-link1" href="#"><img src="assets/img/linkedin.png"></a>
-              <!--Instagram-->
-              <a class="nav-link1" href="#"><img src="assets/img/instagram.png"></a>
-            </div>
-           </div>
-          <!-- Copyright -->
-          <div class="footer-copyright text-center py-3">© 2018 Copyright:
-          <a href="#"> Stone-Age.com</a>
-         </div>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <button type="button" id="sidebarCollapse" class="navbar-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-align-justify"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="nav navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#!presentations">Accueil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#!meteoritiques">Pierres Météoritiques</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#!metalliques">Pierres Métalliques</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#!minerauxNaturels">Mineraux Naturels </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#!panier"><img src="assets/img/panier1.png"></a>
+              </li>
+            </ul>
+          </div>
         </div>
-           <!-- debut script -->
-           <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-           <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-           <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-           <script src="assets/js/script.js"></script>
-           <!-- fin script -->
-  </body>
-</html>
+      </nav>
+      <div ng-view></div>
+      <!-- Footer -->
+      <div class="footer">
+        <div class="col-md-12">
+          <div class="row">
+            <!--Facebook-->
+            <a class="nav-link1" href="#"><img src="assets/img/facebook.png"></a>
+            <!--Google +-->
+            <a class="nav-link1" href="#"><img src="assets/img/twitter.png"></a>
+            <!--Linkedin-->
+            <a class="nav-link1" href="#"><img src="assets/img/linkedin.png"></a>
+            <!--Instagram-->
+            <a class="nav-link1" href="#"><img src="assets/img/instagram.png"></a>
+          </div>
+        </div>
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2018 Copyright:
+          <a href="#"> Stone-Age.com</a>
+        </div>
+      </div>
+    </div>
+    </div>
+      <!-- debut script -->
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+      <script src="assets/js/script.js"></script>
+      <!-- fin script -->
+    </body>
+    </html>

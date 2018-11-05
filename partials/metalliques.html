@@ -1,133 +1,24 @@
-<!-- Stephane Panier
-<a href="#!meteoritiques">meteoritiques</a>
-<a href="#!metalliques">metalliques</a>
-<a href="#!minerauxNaturels">minerauxNaturels</a>
-<a href="#!panier">Panier</a>
-<div class="container">
-  <div ng-controller="StoreController">
-    <h1>Pierres Métalliques</h1>
-    <ul class="list-group text-center">
-      <div class="row">
-        <li class="col-md-4 list-group-item" ng-repeat="product in products.slice(3,6)">
-          <!-- .slice permet de sélectionner quel produit l'on veut afficher 
-          <figure>
-            <img width="100" height="100" src="{{product.img}}" />
-            <figcaption>
-              {{product.name}}
-              <p class="text-justify">{{product.description}}</p>
-              <h3>{{product.price | currency : '€'}}</h3>
-            </figcaption>
-          </figure>
-          <input class="btn btn-success" type="button" ng-click="addItemToCart(product)" value="Acheter" />
-        </li>
-      </ul>
-      <div class="alert alert-success" ng-show="showSuccessCart">Produit ajouté au panier avec succès !</div>
-    </div>
-  </div>
-</div> -->
-    <!-- Aurélie Produits start  -->
-    <div class="container-fluid">
-      <div class="row">
-        <div class="offset-1 col-sm-11">
-          <!-- Categorie PIERRES METALLIQUES -->
-          <!-- "card-deck" permet d'obtenir un expace identique entre les cards -->
-          <div class="card-deck">
-            <div id="cards">
-              <div class="row" id="metalliques">
-                <!-- 1st card -->
-                <div class="card text-white bg-metalliques" style="width: 20rem;">
-                  <img class="card-img-top mx-auto d-block" id="img1" src="../assets/img/metalliques/agNatif.jpg" alt="image d'Argent natif'">
-                <div class="card-body">
-                  <h5 class="card-title" id="text-shadow1"> Argent natif </h5>
-                  <p class="card-text" name="description">
-                    Cet argent est unique, car de tous les argents natifs connus issus de la mine norvégienne de Kongsberg, c’est la seule pièce sur laquelle les filaments d’argent forment une boucle intégrale.
-                    <ul><strong> Description générale </strong>
-                      <li><em>Provenance : </em></li>Voici une pièce historique. Cet argent natif fut envoyé par le roi du Danemark Christian VII en 1770 à Louis XV en guise de cadeau.
-
-                      À la fin de son règne en 1774, Louis XV fit don des minéraux de Norvège et d’Allemagne à Buffon pour le Cabinet Royal d’Histoire naturelle. C’est ainsi que le Muséum national d’Histoire naturelle est devenu le possesseur de cette pièce spectaculaire
-                      <li><em>Dimensions : </em></li>9 x 10,5 cm.
-                      Les filaments d’argent reposent sur une gangue de calcaire.
-                    </ul>
-                  </p>
-                </div>
-                  <div class="card-footer">
-                    <p class="card-text"> Prix : 10000 € </p>
-                    <button type="button"class="btn btn-light btnPanier" data-toggle="modal" data-target="#exampleModalCenter"> Ajouter au panier </button>
-                  </div>
+<!-- Aurélie Categorie Products start  -->
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-4" ng-repeat="product in products.slice(3,6)">
+      <div class="card-deck">
+        <div id="cards">
+          <div class="card" style="width: 20rem;">
+              <div class="card-body bg-metalliques">
+                <img class="card-img-top mx-auto d-block" id="img1" src="{{product.img}}" alt="image de météorite de fer">
+                <h5 class="card-title" id="text-shadow2">{{product.name}}</h5>
+                <p class="card-text text-justify" name="description">{{product.description}}</p>
               </div>
-              <!-- 2nd card -->
-              <div class="card text-white bg-metalliques" style="width: 20rem;">
-                <img class="card-img-top mx-auto d-block" id="img2" src="../assets/img/metalliques/orNatif.jpg" alt="image d'Or natif'">
-                <div class="card-body">
-                  <h5 class="card-title" id="text-shadow1"> Or natif </h5>
-                  <p class="card-text" name="description">
-                      Cette pièce est un or natif. Il s’agit d’un or jaune, de forme lamellaire sur une gangue de quartz compact.
-                    <ul><strong> Description générale </strong>
-                      <li><em>Provenance : </em></li>Mine Dalmatia, Eldorado, Californie, États-Unis, ancien échantillon de la collection du colonel Louis Vesignié. Il était identifié sous le N° 489.O avant d’être intégré en 1955 aux collections du Muséum national d’Histoire naturelle et actuellement mis en vente.
-                      <li><em>Dimensions :</em></li> 9 x 8,5 cm
-                     </ul>
-                    <ul><strong>Fiche d´identité</strong>
-                      <li></li>Espèce : Or natif
-                      <li></li>Historique : Nom issu du latin "aurum" qui donnera le symbole chimique Au.
-                      Espèce connue depuis l’Antiquité.
-                      <li><em>Localité-type :</em></li> non connue.
-                      <li><em>Formule chimique :</em></li> Au
-                      <li><em>Système cristallin :</em></li> Cubique
-                      <li><em>Couleur :</em></li> Jaune doré, jaune rougeâtre à jaune argenté
-                      <li><em>Transparence :</em></li> Opaque
-                      <li><em>Éclat :</em></li> Métallique
-                      <li><em>Trace :</em></li> Jaune brillant
-                      <li><em>Morphologie :</em></li> Cristaux octaédriques, dodécaèdres, cubiques. Dendritique, massif. En pépites, en paillettes
-                      <li><em>Dureté :</em></li> 2,5-3,0
-                      <li><em>Densité :</em></li> 19,302
-                      <li><em>Classe chimique :</em></li> I - Éléments natifs
-                      <li><em>Groupe d´appartenance :</em></li> Cuivre
-                    </ul>
-                   </p>
-                </div>
-                <div class="card-footer">
-                  <p class="card-text"> Prix : 20000 € </p>
-                  <button type="button"class="btn btn-light btnPanier" data-toggle="modal" data-target="#exampleModalCenter"> Ajouter au panier </button>
-                </div>
+              <div class="card-footer bg-metalliques">
+                <p class="card-text"> Prix : {{product.price | currency : '€'}}</p>
+                <button type="button"class="btn btn-dark btnPanier" ng-click="addItemToCart(product)" value="Acheter"> Ajouter au panier </button>
               </div>
-              <!-- 3rd card -->
-              <div class="card text-white bg-metalliques" style="width: 20rem;">
-                <img class="card-img-top mx-auto d-block" id="img3" src="../assets/img/metalliques/platine.jpg" alt="image de Platine">
-                <div class="card-body">
-                  <h5 class="card-title" id="text-shadow1"> Platine </h5>
-                  <p class="card-text" name="description">
-                    Le platine se forme dans les gisements liés aux roches magmatiques éruptives ultrabasiques.
-                    <ul><strong> Description générale </strong>
-                      <li><em>Provenance : </em></li>Nizhnii Tagil, Oural, Russie
-                      <li><em>Dimensions : </em></li>6 x 4,3 cm
-                      <li><em>Poids : </em></li>803 gr
-                    Cette pépite est parmi les plus grandes connues. Découvertes au XIXe siècle, elle fait partie de la collection du tsar Nicolas Ier (1796-1855). À sa mort, elle est offerte à l’Académie des Sciences de Paris, qui les remet au Muséum national d’Histoire naturelle en 1857.
-                    </ul>
-                    <ul><strong> Fiche d´identité </strong>
-                      <li><em>Espèce : </em></li>Platine
-                      <li><em>Historique :</em></li>Nom issu de l’espagnol "platina", diminutif de "plata" signifiant "argent".
-                      Espèce décrite en 1750 par William Brownrigg (1712-1800), médecin et chimiste anglais.
-                      <li><em>Localité-type :</em></li>Rivière Pinto, Papayan, Cauca, Colombie.
-                      <li><em>Formule chimique :</em></li> Pt
-                      <li><em>Système cristallin : </em></li>Cubique
-                      <li><em>Couleur :</em></li> Gris acier à gris sombre
-                      <li><em>Éclat :</em></li> Métallique
-                      <li><em>Trace :</em></li> Gris acier
-                      <li><em>Morphologie :</em></li> Cristaux cubiques, déformés. Rarement en pépite
-                      <li><em>Dureté :/em></li> 4,0-4,5
-                      <li><em>Densité :</em></li> 21,472
-                      <li><em>Classe chimique :</em></li> I - Éléments natifs
-                      <li><em>Groupe d´appartenance :</em></li> Rhodium
-                    </ul>
-                  </p>
-                </div>
-                <div class="card-footer">
-                  <p class="card-text"> Prix : 50000 € </p>
-                  <button type="button"class="btn btn-light btnPanier" data-toggle="modal" data-target="#exampleModalCenter"> Ajouter au panier </button>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </div>
-    
+    </div>
+    <div class="alert alert-success" ng-show="showSuccessCart">Produit ajouté au panier avec succès !
+    </div>
+  </div>
+</div>

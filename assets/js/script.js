@@ -22,20 +22,20 @@ var app = angular.module('store', ['ngRoute']);
 		})
 		.when('/meteoritiques',{
 			templateUrl:'partials/meteoritiques.html',
-			// controller: 'viewCtrl'
+			controller: 'StoreController'
 		})
     .when('/metalliques',{
       templateUrl:'partials/metalliques.html',
-      // controller: 'viewCtrl'
+      controller: 'StoreController'
     })
     .when('/minerauxNaturels',{
       templateUrl:'partials/minerauxNaturels.html',
-      // controller: 'viewCtrl'
+      controller: 'StoreController'
     })
     //pour rediriger vers notre page panier
     .when('/panier',{
       templateUrl:'partials/panier.html',
-      // controller: 'viewCtrl'
+      controller: 'StoreController'
     })
     // Page redirigé par defaut, dans ce cas notre page presentaion
 		.otherwise({

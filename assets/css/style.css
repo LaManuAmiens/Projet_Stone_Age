@@ -1,3 +1,4 @@
+/* Aymeric
 /* navbar debut */
 /*
     DEMO STYLE
@@ -203,3 +204,73 @@ a.article, a.article:hover {
   margin: 40px;
 }
 /* navbar fin */
+=======
+/* Aurelie CATEGORIES
+cards Colors */
+.bg-meteoritiques{
+  background-color: #c5cae9 ;
+}
+
+.bg-metalliques{
+  background-color: #607d8b;
+}
+
+.bg-minerauxNaturels{
+  background-color: #e0f2f1 ;
+}
+
+#cards{
+  margin-top: 100px;
+  display: block;
+}
+
+.card-title{
+  font-size: 40px;
+  text-align: center;
+}
+
+.card-body{
+  text-align: justify;
+}
+
+.card-footer{
+  text-align: center;
+}
+
+.mx-auto{
+  margin: auto;
+}
+
+#text-shadow1{
+  text-shadow: #000 2px 3px;
+}
+
+#text-shadow2{
+  text-shadow: #fff 2px 3px;
+}
+
+/* Aurelie PRESENTATION */
+#text-presentation{
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 50px 50px 50px 50px;
+}
+
+.text-shadow{
+  text-shadow: #607d8b 2px 3px;
+}
+
+/* #background{
+  background: url(../assets/img/presentation/fluoriteZoom.jpg);
+  border: 2px solid black;
+} */
+
+#transbox{
+  margin:  100px 100px 100px 100px;
+  background-color: #ffffff;
+  background-position: center;
+  background: no repeat;
+  border:2px solid #000;
+  opacity: 0.6;
+}

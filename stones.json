@@ -1,0 +1,65 @@
+[
+		{
+			"id":"1",
+			"name":"product1",
+			"price":"10",
+			"img" :"https://df2sm3urulav.cloudfront.net/tenants/gr/uploads/content/569d85a4caedb.jpg",
+			"description" : "description 1 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+		},
+    {
+			"id":"2",
+			"name":"product2",
+			"price":"20",
+			"img" :"https://www.pierres-lithotherapie.com/wp-content/uploads/2016/02/lapis-lazuli-extra-295-300x300.jpg",
+			"description" : "description 2 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+		},
+    {
+			"id":"3",
+			"name":"product3",
+			"price":"30",
+			"img" :"https://www.pierres-lithotherapie.com/wp-content/uploads/2016/02/pendentif-lapis-lazuli-coeur-279x300.jpg",
+			"description" : "description 3 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+		},
+    {
+			"id":"4",
+			"name":"product4",
+			"price":"40",
+			"img" :"https://df2sm3urulav.cloudfront.net/tenants/gr/uploads/content/569d85a4caedb.jpg",
+			"description" : "description 4 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+		},
+		{
+			"id":"5",
+			"name":"product5",
+			"price":"50",
+			"img" :"https://www.pierres-lithotherapie.com/wp-content/uploads/2016/02/lapis-lazuli-extra-295-300x300.jpg",
+			"description" : "description 5 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+		},
+    {
+			"id":"6",
+			"name":"product6",
+			"price":"60",
+			"img" :"https://www.pierres-lithotherapie.com/wp-content/uploads/2016/02/pendentif-lapis-lazuli-coeur-279x300.jpg",
+			"description" : "description 6 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+		},
+    {
+			"id":"7",
+			"name":"product7",
+			"price":"70",
+			"img" :"https://df2sm3urulav.cloudfront.net/tenants/gr/uploads/content/569d85a4caedb.jpg",
+			"description" : "description 7 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+		},
+		{
+			"id":"8",
+			"name":"product8",
+			"price":"80",
+			"img" :"https://www.pierres-lithotherapie.com/wp-content/uploads/2016/02/lapis-lazuli-extra-295-300x300.jpg",
+			"description" : "description 8 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+		},
+    {
+			"id":"9",
+			"name":"product9",
+			"price":"90",
+			"img" :"https://www.pierres-lithotherapie.com/wp-content/uploads/2016/02/pendentif-lapis-lazuli-coeur-279x300.jpg",
+			"description" : "description 9 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+		}
+]

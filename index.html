@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr" dir="ltr" ng-app="App">
+<html lang="fr" dir="ltr" ng-app="store">
   <head>
     <meta charset="utf-8">
     <!-- Latest compiled and minified CSS -->
@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.5/angular.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.5/angular-route.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-i18n/1.7.5/angular-locale_fr-fr.js"></script>
+    <!-- Aymeric partie -->
     <title> Stone-Age </title>
   </head>
   <body>
@@ -78,34 +80,34 @@
                             <a class="nav-link" href="#"><img src="assets/img/panier1.png"></a>
                         </li>
                     </ul>
-
                 </div>
             </div>
         </nav>
+      <div ng-view></div> 
         <!-- Footer -->
         <div class="footer">
           <div class="col-md-12">
             <div class="row">
-          <!--Facebook-->
-<a class="nav-link1" href="#"><img src="assets/img/facebook.png"></a>
-<!--Google +-->
-<a class="nav-link1" href="#"><img src="assets/img/twitter.png"></a>
-<!--Linkedin-->
-<a class="nav-link1" href="#"><img src="assets/img/linkedin.png"></a>
-<!--Instagram-->
-<a class="nav-link1" href="#"><img src="assets/img/instagram.png"></a>
-          </div>
+              <!--Facebook-->
+              <a class="nav-link1" href="#"><img src="assets/img/facebook.png"></a>
+              <!--Google +-->
+              <a class="nav-link1" href="#"><img src="assets/img/twitter.png"></a>
+              <!--Linkedin-->
+              <a class="nav-link1" href="#"><img src="assets/img/linkedin.png"></a>
+              <!--Instagram-->
+              <a class="nav-link1" href="#"><img src="assets/img/instagram.png"></a>
+            </div>
            </div>
-    <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">© 2018 Copyright:
-      <a href="#"> Stone-Age.com</a>
-    </div>
-  </div>
-    <!-- debut script -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <script src="assets/js/script.js"></script>
-    <!-- fin script -->
+          <!-- Copyright -->
+          <div class="footer-copyright text-center py-3">© 2018 Copyright:
+          <a href="#"> Stone-Age.com</a>
+         </div>
+        </div>
+           <!-- debut script -->
+           <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+           <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+           <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+           <script src="assets/js/script.js"></script>
+           <!-- fin script -->
   </body>
 </html>

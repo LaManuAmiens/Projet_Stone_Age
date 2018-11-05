@@ -1,33 +1,38 @@
-/* Aurelie Catégories
+/* Aurelie CATEGORIES
 cards Colors */
-.bg-extraterrestres{
-  background-color: #1c2a48;
+.bg-meteoriques{
+  background-color: #c5cae9 ;
 }
 
-.bg-terrestres{
+.bg-metalliques{
   background-color: #607d8b;
 }
 
-.bg-souterraines{
-  background-color: #26a69a ;
+.bg-minerauxNaturels{
+  background-color: #e0f2f1 ;
 }
 
 #cards{
   margin-top: 100px;
+  display: block;
 }
 
 .card-title{
   font-size: 40px;
-}
-
-.card-body,.card-footer{
   text-align: center;
 }
 
-/* #img1{
-  width: 70%;
-  height: 50%;
-} */
+.card-body{
+  text-align: justify;
+}
+
+.card-footer{
+  text-align: center;
+}
+
+.mx-auto{
+  margin: auto;
+}
 
 #text-shadow1{
   text-shadow: black 2px 3px;
@@ -35,4 +40,30 @@ cards Colors */
 
 #text-shadow2{
   text-shadow: white 2px 3px;
+}
+
+/* Aurelie PRESENTATION */
+#text-presentation{
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 50px 50px 50px 50px;
+}
+
+.text-shadow{
+  text-shadow: #607d8b 2px 3px;
+}
+
+/* #background{
+  background: url(../assets/img/presentation/fluoriteZoom.jpg);
+  border: 2px solid black;
+} */
+
+#transbox{
+  margin:  100px 100px 100px 100px;
+  background-color: #ffffff;
+  background-position: center;
+  background: no repeat;
+  border:2px solid black;
+  opacity: 0.6;
 }

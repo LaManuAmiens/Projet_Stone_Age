@@ -1,3 +1,13 @@
+//Aymeric partie
+// debut navbar collapse
+$(document).ready(function () {
+    $('#sidebarCollapse').on('click', function () {
+        $('#sidebar').toggleClass('active');
+        $(this).toggleClass('active');
+    });
+});
+// fin navbar collapse
+//Stephane & Khoursa partie
 var app = angular.module('store', ['ngRoute']);
 	//configuration du routeur
 	app.config(['$routeProvider', function($routeProvider){
@@ -98,4 +108,4 @@ var app = angular.module('store', ['ngRoute']);
   		//Mise à jour du panier
   		$rootScope.total -= parseFloat(product.price);
   	};
-  });
+  })

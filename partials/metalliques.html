@@ -4,15 +4,15 @@
     <div class="col-md-4" ng-repeat="product in products.slice(3,6)">
       <div class="card-deck">
         <div id="cards">
-          <div class="card bg-meteoritiques" style="width: 20rem;">
-              <div class="card-body">
+          <div class="card" style="width: 20rem;">
+              <div class="card-body bg-metalliques">
                 <img class="card-img-top mx-auto d-block" id="img1" src="{{product.img}}" alt="image de météorite de fer">
                 <h5 class="card-title" id="text-shadow2">{{product.name}}</h5>
                 <p class="card-text text-justify" name="description">{{product.description}}</p>
               </div>
-              <div class="card-footer">
+              <div class="card-footer bg-metalliques">
                 <p class="card-text"> Prix : {{product.price | currency : '€'}}</p>
-                <button type="button"class="btn btn-light btnPanier" ng-click="addItemToCart(product)" value="Acheter"> Ajouter au panier </button>
+                <button type="button"class="btn btn-dark btnPanier" ng-click="addItemToCart(product)" value="Acheter"> Ajouter au panier </button>
               </div>
           </div>
         </div>

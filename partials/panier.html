@@ -1,0 +1,16 @@
+<div id="panier" ng-show="cart.length == 0">
+  <h1>Votre panier est vide!</h1>
+</div>
+<div id="panier2" ng-show="cart.length !== 0" ng-controller="StoreController">
+  <h1>Panier</h1>
+  <ul class="list-group">
+    <li id="panier3" class="list-group-item" ng-repeat="c in cart">
+      <h4>{{c.name}} | <span style="color:blue"> {{c.count}} </span>
+| {{c.price*c.count | currency : '€'}}</h4>
+      <input class="btn btn-danger" type="button" ng-click="removeItemCart(c)" value="Supprimer" />
+      <input class="btn btn-success" type="button" ng-click="addQuantity(c)" value="Ajouter" />
+    </li>
+  </ul>
+  <h4>Total : {{total | currency : '€'}}</h4>
+  <input class="btn btn-success" type="button" ng-click="buy('En cours de transaction')" value="Acheter"/>
+</div>

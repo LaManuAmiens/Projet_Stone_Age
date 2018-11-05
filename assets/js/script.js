@@ -1,58 +1,111 @@
-var form = angular.module('App', ['ngRoute']);
-// form.run(function($rootScope){
-// 	$rootScope.subjectList = [];
-// 	$rootScope.nameList = [];
-// 	$rootScope.emailList = [];
-// 	$rootScope.textList = [];
-// });
+//Aymeric partie
+// debut navbar collapse
+$(document).ready(function () {
+    $('#sidebarCollapse').on('click', function () {
+        $('#sidebar').toggleClass('active');
+        $(this).toggleClass('active');
+    });
+});
+// fin navbar collapse
+//Stephane & Khoursa partie
+var app = angular.module('store', ['ngRoute']);
 	//configuration du routeur
-	form.config(['$routeProvider', function($routeProvider){
+	app.config(['$routeProvider', function($routeProvider){
 		$routeProvider
-    // on mets notre page presentaion, il faudras l'associer a un bouton retour
+    // on met notre page presentation, il faudras l'associer a un bouton retour
     // pour chaque view, on peut mettre un controller different
     // decommenter le commentaire et changer le nom du controller
-		.when('/presentations',{
+		.when('/presentation',{
       //le lien pour la page que l'on veut afficher
-			templateUrl:'partials/presentations.html',
+			templateUrl:'partials/presentation.html',
 			// controller:'formCtrl'
 		})
-		.when('/categorie1',{
-			templateUrl:'partials/categorie1.html',
-			// controller: 'viewCtrl'
+		.when('/meteoritiques',{
+			templateUrl:'partials/meteoritiques.html',
+			controller: 'StoreController'
 		})
-    .when('/categorie2',{
-      templateUrl:'partials/categorie2.html',
-      // controller: 'viewCtrl'
+    .when('/metalliques',{
+      templateUrl:'partials/metalliques.html',
+      controller: 'StoreController'
     })
-    .when('/categorie3',{
-      templateUrl:'partials/categorie3.html',
-      // controller: 'viewCtrl'
+    .when('/minerauxNaturels',{
+      templateUrl:'partials/minerauxNaturels.html',
+      controller: 'StoreController'
     })
     //pour rediriger vers notre page panier
     .when('/panier',{
       templateUrl:'partials/panier.html',
-      // controller: 'viewCtrl'
+      controller: 'StoreController'
     })
     // Page redirigé par defaut, dans ce cas notre page presentaion
 		.otherwise({
-			redirectTo:'/presentations'
+			redirectTo:'/presentation'
 		})
 	}]);
 
-// //on crée un controller rattaché à notre object "form"
-// form.controller('formCtrl', ['$scope', '$rootScope', function ($scope, $rootScope){
-// $scope.sendData = function (){
-// //crée une variable qui sera accessible dans tout le document
-// 	$rootScope.subjectList.push($scope.subject);
-// 	$rootScope.nameList.push($scope.name);
-// 	$rootScope.emailList.push($scope.email);
-// 	$rootScope.textList.push($scope.text);
-// 	}
-// }]);
-// form.controller('viewCtrl',['$scope', '$rootScope', '$routeParams', function($scope, $rootScope, $routeParams){
-// 	$scope.id = $routeParams.id;
-// 	$scope.subject = $rootScope.subjectList[$scope.id];
-// 	$scope.name = $rootScope.nameList[$scope.id];
-// 	$scope.email = $rootScope.emailList[$scope.id];
-// 	$scope.text = $rootScope.textList[$scope.id];
-// }]);
+  app.run(function($rootScope){
+    $rootScope.cart = [];
+    $rootScope.total = 0;
+  });
+
+  app.controller('StoreController', function($scope, $rootScope, $http, $window, $timeout){
+  	$http.get("stones.json")
+  	.then(function(response) {
+  		$scope.products = response.data;
+  	});
+    $scope.buy = function(arg) {
+      $window.alert (arg);
+    };
+  	//Fonction addItemToCart : Si panier général à 0 (aucun produit) alors ajout du dit produit dans le panier
+  	// mais si le panier général n'est pas à 0, variable repaet qui passe sur false
+  	//
+  	$scope.addItemToCart = function(product){
+      //Affichage d'un message durant 3 secondes quand on ajoute un produit au panier
+      $scope.showSuccessCart = true;
+      $timeout(function(){
+            $scope.showSuccessCart = false;
+        }, 3000 );
+
+  		if ($rootScope.cart.length === 0){
+  			product.count = 1;
+  			$rootScope.cart.push(product);
+  		} else {
+  			var repeat = false;
+  			for(var i = 0; i< $rootScope.cart.length; i++){
+  				// Si l'id est présent dans le panier, il incrémente la quantité de 1, repeat passe à true
+  				if($rootScope.cart[i].id === product.id){
+  					repeat = true;
+  					$rootScope.cart[i].count +=1;
+  				}
+  			}
+  			// Sinon ajout dans le panier du nouveau produit, (repeat=false)
+  			if (!repeat) {
+  				product.count = 1;
+  				$rootScope.cart.push(product);
+  			}
+  		}
+  		//Mise à jour du panier
+  		$rootScope.total += parseFloat(product.price);
+  	};
+
+  	//Fonction addQuantity : Augmentation de la quantité de produit dans le panier
+  	$scope.addQuantity = function(product){
+  		product.count +=1;
+  		//Mise à jour du panier
+  		$rootScope.total += parseFloat(product.price);
+  	};
+
+  	//Fonction removeItemCart : Enlève 1 à la quantité de produit mais s'il reste un produit et qu'on clique sur le bouton, l'article est supprimé du panier
+  	$scope.removeItemCart = function(product){
+
+  		if(product.count > 1){
+  			product.count -= 1;
+  		}
+  		else if(product.count === 1){
+  			var index = $rootScope.cart.indexOf(product);
+  			$rootScope.cart.splice(index, 1);
+  		}
+  		//Mise à jour du panier
+  		$rootScope.total -= parseFloat(product.price);
+  	};
+  })

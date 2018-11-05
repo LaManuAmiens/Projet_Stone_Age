@@ -1,0 +1,24 @@
+<!-- Aurélie Categorie Products start  -->
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-4" ng-repeat="product in products.slice(6,9)">
+      <div class="card-deck">
+        <div id="cards">
+          <div class="card bg-meteoritiques" style="width: 20rem;">
+              <div class="card-body">
+                <img class="card-img-top mx-auto d-block" id="img1" src="{{product.img}}" alt="image de météorite de fer">
+                <h5 class="card-title" id="text-shadow2">{{product.name}}</h5>
+                <p class="card-text text-justify" name="description">{{product.description}}</p>
+              </div>
+              <div class="card-footer">
+                <p class="card-text"> Prix : {{product.price | currency : '€'}}</p>
+                <button type="button"class="btn btn-light btnPanier" ng-click="addItemToCart(product)" value="Acheter"> Ajouter au panier </button>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="alert alert-success" ng-show="showSuccessCart">Produit ajouté au panier avec succès !
+    </div>
+  </div>
+</div>

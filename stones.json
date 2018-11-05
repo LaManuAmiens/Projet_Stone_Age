@@ -4,62 +4,110 @@
 			"name":"Météorite de fer & nickel",
 			"price":"10000",
 			"img" :"assets/img/meteoritiques/metFerAus.jpg",
-			"description" : "description 1 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+			"description" : "Les météorites différenciées sont des témoins de l’évolution des planètes. Contrairement aux météorites primitives, elles ont suivi une évolution analogue à celle des planètes internes du système solaire.
+			Cette météorite de fer et de nickel, échantillonnant probablement le noyau d’un astéroïde détruit, présente une belle inclusion de troïlite (sulfure de fer) et des figures de Widmanstätten formées au cours d’un refroidissement qui a duré des millions d’années.
+			Nom d'usage: Météorite de Mount Edith / Classe: Octaédrite IIIAB / Poids de l'échantillon: 327 g (326 kg au total) / Date de récolte: 1913 (trouvaille) / Région / Pays: Ashburton District, Western Australia / Australie.
+			Une première masse de 161 kg a été découverte par James Bourke à 80 km d’Onslow, à proximité de Mount Edith en 1913. Une autre masse de 165 kg est ensuite découverte.
+			Le Musée de Perth (Australie) en conserve l’essentiel. Cette météorite se compose principalement de fer et de nickel. Elle est un fragment du cœur métallique d’un astéroïde dont la partie externe riche en silicates a été détruite par des collisions avec d’autres astéroïdes au cours des temps géologiques.
+			Cet astéroïde avait adopté cette structure dite différenciée (le noyau est métallique ; le manteau et la croûte sont silicatés) très tôt dans l’histoire du système solaire. L’inclusion (visible sur le côté gauche de la photographie) est de la troilite, un sulfure de fer qui s’est formé en même temps que l’alliage de fer-nickel. Les structures dites de Widmanstätten visibles dans l’ensemble de la tranche de météorite correspondent à des variations de la teneur en nickel du métal. Leur développement extensif est le résultat du refroidissement très lent de la météorite dans les profondeurs du cœur de son astéroïde parent.
+			Il a fallu des millions d’années pour les former. De telles structures sont apparentes dans la majorité des météorites de fer, on peut les révéler grâce à une légère attaque acide. Leur étude ainsi que celle des autres propriétés des météorites de fer permettent de préciser les conditions de la formation des cœurs métalliques des gros astéroïdes et des planètes.
+			L’étude de ces météorites est ainsi une façon indirecte d’étudier le noyau de la planète Terre auquel nous n’avons pas accès."
 		},
     {
 			"id":"2",
 			"name":"Météorite martienne",
 			"price":"20000",
 			"img" :"assets/img/meteoritiques/metFer.jpg",
-			"description" : "description 2 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+			"description" : "La météorite de Chassigny est tombée il y a 200 ans, le 3 octobre 1815. C’est le premier fragment de Mars dont la chute sur Terre ait été observée. Avec les données des rovers qui circulent à la surface de Mars, les météorites d’origine martienne sont notre principale source d’informations sur l’origine et l’évolution interne de cette planète.
+			Nom d'usage: Météorite de Chassigny / Classe: SNC / Poids de l'échantillon: SNC / Taille (cm): 4,5 x 4 x 4,8 / Date de récolte: 03/10/1985 (chute) / Pays: France.
+			Tombée à quelques centaines de mètres d’un villageois qui travaillait dans les vignes et accompagnée d’un bruit épouvantable, comparé à 'des décharges de mousqueterie entrecoupées par des coups de canons', la météorite de Chassigny (Haute-Marne) a immédiatement été identifiée comme une pierre d’origine extra-terrestre. Mais ce n’est que plus d’un siècle et demi plus tard qu’elle a été reconnue comme un fragment de la planète Mars.
+			Comme un grand nombre d’autres météorites d’origine martienne (près d’une centaine connues à l’heure actuelle), cette roche a été formée plus de 3 milliards d’années après les débuts du Système solaire par le refroidissement et la cristallisation d’un magma (roche fondue). À une époque aussi tardive, plus aucun astéroïde n’avait d’activité volcanique. Cet âge 'récent' a été la première indication de l’origine martienne probable de Chassigny et des roches appariées, arrivées sur Terre après un périple de 11 millions d’années dans l’espace interplanétaire. L’origine martienne de ces roches a été confirmée depuis lors par la découverte de gaz piégés dans l’une d’elles, gaz qui ressemblent fortement à ceux analysés par la sonde Viking dans l’atmosphère de Mars.
+			Avec les rovers tels Curiosity, qui font de la géologie in situ à la surface de Mars, les météorites martiennes sont notre principale source d’informations sur les processus de formation et d’évolution de la planète Mars. Quoique Mars soit plus petite que la Terre, les deux planètes étaient probablement très semblables en surface il y a 4 milliards d’années, au moment où la vie apparaissait sur Terre (et peut-être sur Mars également ?).
+			Grâce aux météorites, nous possédons de Mars des fragments de roches plus anciens que tous ceux qui sont maintenant connus à la surface de la Terre. Venant compléter les images et analyses envoyées par les rovers qui circulent à la surface de Mars, l’étude des météorites martiennes est donc l’une des pistes les plus importantes pour comprendre l’origine de la vie sur la Terre."
 		},
     {
 			"id":"3",
 			"name":"Météorite chondrite",
 			"price":"50000",
 			"img" :"assets/img/meteoritiques/metChon.jpg",
-			"description" : "description 3 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+			"description" : "  Les météorites primitives (les chondrites), sont des fragments des corps rocheux qui se sont formés en même temps que le Soleil. Elles fournissent des informations sur l’origine du système solaire et permettent notamment de déterminer son âge.
+				Comme leur nom l’indique les chondrites ordinaires sont les plus abondantes des météorites (73 % des chutes). Celle d’Agen a enduré du métamorphisme thermique, c’est-à-dire que ses propriétés ont été modifiées par une élévation de température modérée sur son astéroïde parent. Des datations indiquent que ce phénomène de métamorphisme a eu lieu très tôt dans l’histoire du système solaire.
+				La météorite d’Agen appartient à la classe des chondrites ordinaires qui représentent environ 73 % des chutes de météorites sur Terre. La croûte recouvrant l’échantillon s’est formée lors de l’entrée de la météorite à très haute vitesse dans l’atmosphère.
+				Nom vernaculaire: Météorite d'Agen,
+				Classe: Chondrite ordinaire (H5) / Poids de l'échantillon: 467 g (total 30 kg) / Date de récolte: 05/09/1814 (chute) / Localité / Pays: Agen (Lot et Garonne) / France.
+				La météorite d’Agen est tombée le 5 septembre 1814 à proximité du petit village de Gascou près d’Agen. Sa chute a été obsmeteoriqueservée par un naturaliste habitant la région, Jean Florimond Boudon de Saint-Amans.
+				Comme pour toutes les météorites, le passage à haute vitesse de la météorite d’Agen dans l’atmosphère a créé une impressionnante boule de feu et un bruit spectaculaire que Saint-Amans compare à une fusillade prolongée, ensuite au bruit de plusieurs carrosses sur le pavé, enfin à celui d’un grand édifice qui s’écroule. L’un et l’autre phénomène sont provoqués par l’interaction violente entre la pierre et l’atmosphère terrestre. La météorite d’Agen est une chondrite ordinaire, particulièrement riche en fer métallique.
+				La météorite d’Agen, comme la majorité des météorites, provient d’un astéroïde. Des mesures isotopiques ont permis de montrer que le temps de trajet entre son astéroïde-parent et la Terre a été de 7 millions d’années."
 		},
     {
 			"id":"4",
 			"name":"Argent natif",
 			"price":"10000",
 			"img" :"assets/img/metalliques/agNatif.jpg",
-			"description" : "description 4 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+			"description" : "Cet argent est unique, car de tous les argents natifs connus issus de la mine norvégienne de Kongsberg, c’est la seule pièce sur laquelle les filaments d’argent forment une boucle intégrale.
+			Dimensions : 9 x 10,5 cm.
+			Les filaments d’argent reposent sur une gangue de calcaire.
+			Il s'agit d'une pièce historique. Cet argent natif fut envoyé par le roi du Danemark Christian VII en 1770 à Louis XV en guise de cadeau.
+			À la fin de son règne en 1774, Louis XV fit don des minéraux de Norvège et d’Allemagne à Buffon pour le Cabinet Royal d’Histoire naturelle. C’est ainsi que le Muséum national d’Histoire naturelle est devenu le possesseur de cette pièce spectaculaire.Nous vous la proposons à présent."
 		},
 		{
 			"id":"5",
 			"name":"Or natif",
 			"price":"20000",
 			"img" :"assets/img/metalliques/orNatif.jpg",
-			"description" : "description 5 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+			"description" : "Cette pièce est un or natif. Il s’agit d’un or jaune, de forme lamellaire sur une gangue de quartz compact.
+			Provenance : Mine Dalmatia, Eldorado, Californie, États-Unis, ancien échantillon de la collection du colonel Louis Vesignié. Il était identifié sous le N° 489.O avant d’être intégré en 1955 aux collections du Muséum national d’Histoire naturelle et actuellement mis en vente.
+			Dimensions : 9 x 8,5 cm / Historique : Nom issu du latin 'aurum' qui donnera le symbole chimique Au.
+			Espèce connue depuis l’Antiquité.
+			Formule chimique : Au / Système cristallin : Cubique / Couleur : Jaune doré, jaune rougeâtre à jaune argenté / Transparence : Opaque / Éclat : Métallique / Trace : Jaune brillant / Morphologie : Cristaux octaédriques, dodécaèdres, cubiques / Dendritique, massif. En pépites, en paillettes / Dureté : 2,5-3,0 / Densité : 19,302 / Classe chimique : I - Éléments natifs / Groupe d´appartenance : Cuivre."
 		},
     {
 			"id":"6",
 			"name":"Platine",
 			"price":"50000",
 			"img" :"assets/img/metalliques/platine.jpg",
-			"description" : "description 6 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+			"description" : "Le platine se forme dans les gisements liés aux roches magmatiques éruptives ultrabasiques.
+			Provenance : Nizhnii Tagil, Oural, Russie / Dimensions : 6 x 4,3 cm / Poids : 803 gr.
+			Cette pépite est parmi les plus grandes connues. Découvertes au XIXe siècle, elle fait partie de la collection du tsar Nicolas Ier (1796-1855). À sa mort, elle est offerte à l’Académie des Sciences de Paris, qui les remet au Muséum national d’Histoire naturelle en 1857.
+			Espèce : Platine / Historique : Nom issu de l’espagnol 'platina', diminutif de 'plata' signifiant 'argent'. Espèce décrite en 1750 par William Brownrigg (1712-1800), médecin et chimiste anglais / Localité-type :Rivière Pinto, Papayan, Cauca, Colombie / Formule chimique : Pt / Système cristallin : Cubique / Couleur : Gris acier à gris sombre / Éclat : Métallique / Trace : Gris acier / Morphologie : Cristaux cubiques, déformés. Rarement en pépite / Dureté : 4,0-4,5 / Densité : 21,472 / Classe chimique : I - Éléments natifs / Groupe d´appartenance : Rhodium."
 		},
     {
 			"id":"7",
 			"name":"Malachite & azurite",
 			"price":"10000",
 			"img" :"assets/img/minerauxNaturels/malAz.jpg",
-			"description" : "description 7 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+			"description" : "Provenance : L’échantillon est issu du gisement de Morenci en Arizona. C’est grâce au don de M. Pierpont Morgan en 1903, que cette pièce a été intégrée aux collections du Muséum national d’Histoire naturelle.   Cet échantillon est actuellement proposé à la vente.
+			Cette pièce présente de la malachite et de l’azurite. Les formes circulaires ont été mises en valeur grâce à un polissage. Il s’agit de couches concentriques de malachite verte et d’azurite bleu nuit, qui donnent une fois polies, un aspect florissant.
+			Dimensions : 10 x 6,7 cm."
 		},
 		{
 			"id":"8",
 			"name":"Rhodochrosite",
 			"price":"20000",
 			"img" :"assets/img/minerauxNaturels/rhodochrosite.jpg",
-			"description" : "description 8 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+			"description" : "La rhodochrosite est un carbonate de manganèse relativement rare. Sa belle couleur rose-rouge est très appréciée. La rhodochrosite est une espèce qui se forme dans les veines hydrothermales et dans les gîtes argentifières, plombifères, cuprifères et zincifères. Elle peut être associée avec d’autres minéraux de manganèse tels que la rhodonite.
+			Provenance : Capillitas, Mine Ortiz, Catamarca, Argentine / Dimensions : 40 x 24,5 x 1 cm.
+			Cette pièce est une rhodocrosite un peu particulière. En effet il s’agit en réalité une section transversale d’une stalactite.
+			Les stalactites sont des concrétions qui se forment au plafond des grottes, des mines… grâce à la cristallisation des sels minéraux dissous par l’eau dans la roche. Les plus rapides grandissent de quelques centimètres par an.
+			Les stalactites sont généralement constituées d’aragonite (Ca CO3). Dans le cas présent, c’est grâce au manganèse présent dans les fluides que cette rhodochrosite a pu se former.
+			On peut apercevoir nettement les conduits qui ont permis le passage des fluides. Tout autour de ces conduits, on peut observer une cristallisation orbiculaire de rhodochrosite de teinte rose à rose-rouge. La différence de teinte est due à la différence de concentration du manganèse.
+			Espèce : Rhodocrosite / Historique : Nom issu du grec ρ-'οδοσ'[rhodos] signifiant 'rose' et de 'χροσισ' [chrosis] signifiant 'colorant'.Espèce décrite en 1813 par Johann Friedrich Ludwig Hausmann (1782-1859), minéralogiste allemand.
+			Localité-type : Kavnic (Kapnikbanya), Comté de Maramures, Roumanie / Formule chimique : MnCO3 / Système cristallin : Rhomboédrique / Couleur : Rose, rouge / Transparence : Transparent à translucide / Éclat : Vitreux, nacré / Trace : Blanc / Morphologie : Cristaux prismatiques en scalénoèdres, agrégats stalactiformes / Dureté : 3,5-4,0 / Densité : 3,7 / Classe chimique : V - Carbonates, nitrates / Groupe d´appartenance : Calcite."
 		},
     {
 			"id":"9",
 			"name":"Fluorite",
 			"price":"50000",
 			"img" :"assets/img/minerauxNaturels/fluorite.jpg",
-			"description" : "description 9 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+			"description" : "La fluorite est un fluorure de calcium qui est commun dans les gisements hydrothermaux de basse température où elle est associée à divers sulfures (galène, sphalérite…) et dans les filons pegmatitiques.
+			La fluorite est une espèce photosensible : l’exposition à la lumière solaire a tendance à faire disparaître la couleur des cristaux. Aussi, il est recommandé de conserver les échantillons dans l’obscurité.
+			Elle est réactive aux rayons ultraviolets, son nom donnera le terme 'fluorescent'.
+			C’est une espèce très recherchée par les collectionneurs pour ses cristaux quasi parfaits et l’étendue de ses couleurs. Elle doit être l’une des espèces présentant le plus de couleurs. La majeure partie des cristallisations se trouve sous forme cubique, voire octaédrique et plus rarement dodécaédrique.
+			Les fluorites peuvent être incolores, bleues, vertes, violettes, roses, jaunes, marron. Cette couleur peut être inégalement répartie, sous forme de bandes suivant les arêtes des cristaux, laissant apparaître ainsi les zones de croissance de ces mêmes cristaux. La diversité des couleurs est due à la présence de certains éléments, ayant plus ou moins subi des irradiations : on note la présence de terre-rares comme l’yttrium, l’europium, le samarium…
+			Certains gisements très classiques pour l’espèce ont donné de magnifiques cristallisations : Alston-Moor/Weardale en Grande Bretagne, les Asturies en Espagne, l’Illinois aux États-Unis. Les fluorites chinoises arrivées récemment sur le marché sont très nombreuses et très variées.
+			En France, les fluorites exceptionnelles sont nombreuses : les mines du Beix, de Puy-Saint-Gulmier dans le Puy-de-Dôme, de Peyreburne, de la mine du Burg dans le Tarn, de Langeac en Haute-Loire sont les plus connues, ayant produits de remarquables échantillons. La mine de Valzergues (Aveyron) a même livré un cristal de 100 kg environ. Il faut aussi signaler la découverte, dans le massif du Mont-Blanc, d’octaèdres rose à rouge associés à du quartz enfumé qui sont très prisés des collectionneurs. Également connue dans de nombreux endroits des Vosges (Framont, Silbertal, Ste-Marie-aux-Mines, Ste-Croix-aux-Mines, Raon l’Etape, Remiremont, Val-d’Ajol etc.), de Bretagne (la Villeder, Montbelleux, Pontpéan…), en Bourgogne ou de très gros gisements sont signalés (Saint-Prix, Voltennes, Romanèche parmi tant d’autres), Indre (Chaillac), Givet (Ardennes), Franche-Comté (Faucogney-Saphoz, Plancher-les-Mines, Giromagny), à Paris (au Forum des Halles !), Durfort (par exemple de gisement du Gard), Cabrières (Hérault), Prades, le Portalet, Arbouet (Pyrénées), le Kaymar et la Boule (Aveyron), Les Porres, Fontsante (Var), Montgellafrey et Val Thorens (Alpes).
+			Le type n’est pas définissable car il s’agit d’une espèce ancienne décrite avant que les conditions de dépôt des types n’aient été définies.
+			Le saviez-vous ? C’est le principal minerai de fluor, elle est utilisée dans la métallurgie de l’aluminium et pour la fabrication d’acide fluorhydrique.
+			Les cristaux peuvent présenter des dimensions impressionnantes. Le plus grand cristal a été découvert au Nouveau Mexique (États-Unis) : son diamètre est de 213 cm et son poids de 16 tonnes !"
 		}
 ]

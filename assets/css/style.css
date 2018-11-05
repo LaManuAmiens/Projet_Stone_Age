@@ -194,6 +194,7 @@ a.article, a.article:hover {
 .footer{
   background-color: #7386D5;
   text-align: center;
+  margin-bottom: 0px;
 }
 .row{
   justify-content: center;

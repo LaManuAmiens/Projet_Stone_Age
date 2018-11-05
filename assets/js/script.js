@@ -10,16 +10,16 @@ var app = angular.module('store', ['ngRoute']);
 			templateUrl:'partials/presentation.html',
 			// controller:'formCtrl'
 		})
-		.when('/extraterrestre',{
-			templateUrl:'partials/extraterrestre.html',
+		.when('/meteoritiques',{
+			templateUrl:'partials/meteoritiques.html',
 			// controller: 'viewCtrl'
 		})
-    .when('/terrestre',{
-      templateUrl:'partials/terrestre.html',
+    .when('/metalliques',{
+      templateUrl:'partials/metalliques.html',
       // controller: 'viewCtrl'
     })
-    .when('/souterrain',{
-      templateUrl:'partials/souterrain.html',
+    .when('/minerauxNaturels',{
+      templateUrl:'partials/minerauxNaturels.html',
       // controller: 'viewCtrl'
     })
     //pour rediriger vers notre page panier

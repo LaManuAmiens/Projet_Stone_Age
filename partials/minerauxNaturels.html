@@ -1,3 +1,4 @@
+ <!-- Stephane panier
 <a href="#!meteoritiques">meteoritiques</a>
 <a href="#!metalliques">metalliques</a>
 <a href="#!minerauxNaturels">minerauxNaturels</a>
@@ -8,7 +9,7 @@
     <ul class="list-group text-center">
       <div class="row">
         <li class="col-md-4 list-group-item" ng-repeat="product in products.slice(6,9)">
-          <!-- .slice permet de sélectionner quel produit l'on veut afficher -->
+          <!-- .slice permet de sélectionner quel produit l'on veut afficher
           <figure>
             <img width="100" height="100" src="{{product.img}}" />
             <figcaption>
@@ -23,4 +24,109 @@
       <div class="alert alert-success" ng-show="showSuccessCart">Produit ajouté au panier avec succès !</div>
     </div>
   </div>
-</div>
+</div> -->
+  
+  <!-- Aurélie Categorie Products start  -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="offset-1 col-sm-11">
+          <!-- Categorie MINERAUX NATURELS-->
+          <div class="card-deck">
+            <div id="cards">
+              <div class="row" id="minerauxNaturels">
+                <!-- 1st card -->
+                <div class="card text-dark bg-minerauxNaturels" style="width: 20rem;">
+                  <img class="card-img-top mx-auto d-block" id="img1" src="../assets/img/minerauxNaturels/malAz.jpg" alt="image de Malachite Azurite">
+                <div class="card-body">
+                  <h5 class="card-title" id="text-shadow2"> Malachite & azurite </h5>
+                  <p class="card-text" name="description">
+                    <ul><strong> Description générale </strong>
+                      <li><em>Provenance :</em> L’échantillon est issu du gisement de Morenci en Arizona. C’est grâce au don de M. Pierpont Morgan en 1903, que cette pièce a été intégrée aux collections du Muséum national d’Histoire naturelle.
+                      Cette pièce présente de la malachite et de l’azurite. Les formes circulaires ont été mises en valeur grâce à un polissage. Il s’agit de couches concentriques de malachite verte et d’azurite bleu nuit, qui donnent une fois polies, un aspect florissant.
+                      <li><em>Dimensions :</em>La pièce mesure 10 x 6,7 cm.
+                      Cet échantillon est actuellement proposé à la vente.
+                    </ul>
+                  </p>
+                </div>
+                  <div class="card-footer">
+                    <p class="card-text"> Prix : 10000 € </p>
+                    <button type="button"class="btn btn-light btnPanier" data-toggle="modal" data-target="#exampleModalCenter"> Ajouter au panier </button>
+                  </div>
+              </div>
+              <!-- 2nd card -->
+              <div class="card text-dark bg-minerauxNaturels" style="width: 20rem;">
+                <img class="card-img-top mx-auto d-block" id="img2" src="../assets/img/minerauxNaturels/rhodochrosite.jpg" alt="image de Rhodocrosite">
+                <div class="card-body">
+                  <h5 class="card-title" id="text-shadow2"> Rhodochrosite </h5>
+                  <p class="card-text" name="description">
+                    La rhodochrosite est un carbonate de manganèse relativement rare. Sa belle couleur rose-rouge est très appréciée. La rhodochrosite est une espèce qui se forme dans les veines hydrothermales et dans les gîtes argentifières, plombifères, cuprifères et zincifères. Elle peut être associée avec d’autres minéraux de manganèse tels que la rhodonite.
+                    <ul><strong> Description générale </strong>
+                      <li><em>Provenance :</em> Capillitas, Mine Ortiz, Catamarca, Argentine</li>
+                      <li><em>Dimensions :</em> 40 x 24,5 x 1 cm</li>
+                      Cette pièce est une rhodocrosite un peu particulière. En effet il s’agit en réalité une section transversale d’une stalactite.
+                      Les stalactites sont des concrétions qui se forment au plafond des grottes, des mines… grâce à la cristallisation des sels minéraux dissous par l’eau dans la roche. Les plus rapides grandissent de quelques centimètres par an.
+                      Les stalactites sont généralement constituées d’aragonite (Ca CO3). Dans le cas présent, c’est grâce au manganèse présent dans les fluides que cette rhodochrosite a pu se former.
+                      On peut apercevoir nettement les conduits qui ont permis le passage des fluides. Tout autour de ces conduits, on peut observer une cristallisation orbiculaire de rhodochrosite de teinte rose à rose-rouge. La différence de teinte est due à la différence de concentration du manganèse.
+                      Cette pièce est issue de la mine Ortiz en Argentine.
+                    </ul>
+                    <ul><strong> Fiche d´identité </strong>
+                      <li><em>Espèce :</em> Rhodocrosite</li>
+                      <li><em>Historique :</em> Nom issu du grec "ρ-οδοσ"     [rhodos] signifiant "rose" et de "χροσισ" [chrosis] signifiant "colorant".
+                      Espèce décrite en 1813 par Johann Friedrich Ludwig Hausmann (1782-1859), minéralogiste allemand.</li>
+                      <li><em>Localité-type :</em> Kavnic (Kapnikbanya), Comté de Maramures, Roumanie.</li>
+                      <li><em>Formule chimique :</em> MnCO3</li>
+                      <li><em>Système cristallin :</em> Rhomboédrique</li>
+                      <li><em>Couleur :</em> Rose, rouge</li>
+                      <li><em>Transparence :</em> Transparent à translucide</li>
+                      <li><em>Éclat :</em> Vitreux, nacré</li>
+                      <li><em>Trace :</em> Blanc</li>
+                      <li><em>Morphologie :</em> Cristaux prismatiques en scalénoèdres, agrégats stalactiformes</li>
+                      <li><em>Dureté :</em> 3,5-4,0</li>
+                      <li><em>Densité :</em> 3,7</li>
+                      <li><em>Classe chimique :</em> V - Carbonates, nitrates</li>
+                      <li><em>Groupe d´appartenance :</em> Calcite</li>
+                    </ul>
+                  </p>
+                </div>
+                <div class="card-footer">
+                  <p class="card-text"> Prix : 20000 € </p>
+                  <button type="button"class="btn btn-light btnPanier" data-toggle="modal" data-target="#exampleModalCenter"> Ajouter au panier </button>
+                </div>
+              </div>
+              <!-- 3rd card -->
+              <div class="card text-dark bg-minerauxNaturels" style="width: 20rem;">
+                <img class="card-img-top mx-auto d-block" id="img3" src="../assets/img/minerauxNaturels/fluorite.jpg" alt="image de Fluorite">
+                <div class="card-body">
+                  <h5 class="card-title" id="text-shadow2"> Fluorite </h5>
+                  <p class="card-text" name="description">
+                  La fluorite est un fluorure de calcium qui est commun dans les gisements hydrothermaux de basse température où elle est associée à divers sulfures (galène, sphalérite…) et dans les filons pegmatitiques.
+
+                  Description générale
+
+                  La fluorite est une espèce photosensible : l’exposition à la lumière solaire a tendance à faire disparaître la couleur des cristaux. Aussi, il est recommandé de conserver les échantillons dans l’obscurité.
+
+                  Elle est réactive aux rayons ultraviolets, son nom donnera le terme "fluorescent".
+
+                  C’est une espèce très recherchée par les collectionneurs pour ses cristaux quasi parfaits et l’étendue de ses couleurs. Elle doit être l’une des espèces présentant le plus de couleurs. La majeure partie des cristallisations se trouve sous forme cubique, voire octaédrique et plus rarement dodécaédrique.
+
+                  Les fluorites peuvent être incolores, bleues, vertes, violettes, roses, jaunes, marron. Cette couleur peut être inégalement répartie, sous forme de bandes suivant les arêtes des cristaux, laissant apparaître ainsi les zones de croissance de ces mêmes cristaux. La diversité des couleurs est due à la présence de certains éléments, ayant plus ou moins subi des irradiations : on note la présence de terre-rares comme l’yttrium, l’europium, le samarium…
+                  Certains gisements très classiques pour l’espèce ont donné de magnifiques cristallisations : Alston-Moor/Weardale en Grande Bretagne, les Asturies en Espagne, l’Illinois aux États-Unis. Les fluorites chinoises arrivées récemment sur le marché sont très nombreuses et très variées.
+
+                  En France, les fluorites exceptionnelles sont nombreuses : les mines du Beix, de Puy-Saint-Gulmier dans le Puy-de-Dôme, de Peyreburne, de la mine du Burg dans le Tarn, de Langeac en Haute-Loire sont les plus connues, ayant produits de remarquables échantillons. La mine de Valzergues (Aveyron) a même livré un cristal de 100 kg environ. Il faut aussi signaler la découverte, dans le massif du Mont-Blanc, d’octaèdres rose à rouge associés à du quartz enfumé qui sont très prisés des collectionneurs. Également connue dans de nombreux endroits des Vosges (Framont, Silbertal, Ste-Marie-aux-Mines, Ste-Croix-aux-Mines, Raon l’Etape, Remiremont, Val-d’Ajol etc.), de Bretagne (la Villeder, Montbelleux, Pontpéan…), en Bourgogne ou de très gros gisements sont signalés (Saint-Prix, Voltennes, Romanèche parmi tant d’autres), Indre (Chaillac), Givet (Ardennes), Franche-Comté (Faucogney-Saphoz, Plancher-les-Mines, Giromagny), à Paris (au Forum des Halles !), Durfort (par exemple de gisement du Gard), Cabrières (Hérault), Prades, le Portalet, Arbouet (Pyrénées), le Kaymar et la Boule (Aveyron), Les Porres, Fontsante (Var), Montgellafrey et Val Thorens (Alpes).
+
+                  Le type n’est pas définissable car il s’agit d’une espèce ancienne décrite avant que les conditions de dépôt des types n’aient été définies.
+
+                  Le saviez-vous ? C’est le principal minerai de fluor, elle est utilisée dans la métallurgie de l’aluminium et pour la fabrication d’acide fluorhydrique.
+                  Les cristaux peuvent présenter des dimensions impressionnantes. Le plus grand cristal a été découvert au Nouveau Mexique (États-Unis) : son diamètre est de 213 cm et son poids de 16 tonnes !
+                 </p>
+                </div>
+                <div class="card-footer">
+                  <p class="card-text"> Prix : 50000 € </p>
+                  <button type="button"class="btn btn-light btnPanier" data-toggle="modal" data-target="#exampleModalCenter"> Ajouter au panier </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
